@@ -89,16 +89,16 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-          &kp Q  &kp W  &kp E         &kp R        &kp T             &kp Y                &kp U            &kp I         &kp O    &kp P
-          &kp A  &kp S  &kp D         &kp F        &kp G             &kp H                &kp J            &kp K         &kp L    &kp SEMI
-&kp LWIN  &kp Z  &kp X  &kp C         &kp V        &kp B             &kp N                &kp M            &kp COMMA     &kp DOT  &kp FSLH  &kp UNDERSCORE
-                        &lt 2 ESCAPE  &lt 1 SPACE  &kp LEFT_SHIFT    &mt RIGHT_GUI ENTER  &lt 1 BACKSPACE  &lt 3 DELETE
+         &kp Q  &kp W  &kp E         &kp R        &kp T             &kp Y                &kp U            &kp I         &kp O    &kp P
+         &kp A  &kp S  &kp D         &kp F        &kp G             &kp H                &kp J            &kp K         &kp L    &kp SEMI
+&kp TAB  &kp Z  &kp X  &kp C         &kp V        &kp B             &kp N                &kp M            &kp COMMA     &kp DOT  &kp FSLH  &kp UNDERSCORE
+                       &lt 2 ESCAPE  &lt 1 SPACE  &kp LEFT_SHIFT    &mt RIGHT_GUI ENTER  &lt 1 BACKSPACE  &lt 3 DELETE
             >;
         };
 
         symbol_layer {
             bindings = <
-        &kp ASTERISK  &kp TILDE     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE         &kp AT_SIGN  &kp AMPERSAND  &kp HASH          &kp TILDE          &kp GRAVE
+        &kp ASTERISK  &kp TILDE     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE         &kp AT_SIGN  &kp AMPERSAND  &kp HASH          &kp SINGLE_QUOTE   &kp GRAVE
         &kp EXCL      &kp QUESTION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp CARET        &kp DOLLAR   &kp EQUAL      &kp COLON         &kp DOUBLE_QUOTES  &kp SEMI
 &trans  &kp PERCENT   &kp PLUS      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH    &kp SLASH    &kp LESS_THAN  &kp GREATER_THAN  &kp MINUS          &kp PLUS   &trans
                                     &trans                &trans                 &trans           &trans       &trans         &trans
