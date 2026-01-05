@@ -4,3 +4,6 @@ include:
   - board: xiao_ble
     shield: totem_right
 # there is no settingsreset (needed) for the XIAO
+# But try it anyways ...
+  - board: xiao_ble
+    shield: settings_reset
